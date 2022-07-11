@@ -31,7 +31,7 @@
 	background:url(../img/logo.png) 0 0 no-repeat;
 	margin-right: 0;
 	margin-top: 10px;
-	margin-left: 40px;
+	margin-left: 60px;
 
 	}
 
@@ -70,6 +70,7 @@
 	float: left;
 	width: 250px;
 	position: relative;
+	margin-right: 60px;
 	}
 
 	.nav-list .nav-item .btn-nav-book span{
@@ -337,6 +338,8 @@
 	background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+	padding-left: 70px;
+	padding-right: 60px;
 
 	}
 
@@ -378,6 +381,7 @@
 	#file-a-complaint .logo-trusted{
 	display: block;
 	margin-top: 100px;
+	margin-left: -20px;
 	}
 
 	.form-group .upload-label{
@@ -461,7 +465,7 @@
 
 	#file-a-complaint .contact-informations{
 	display: block;
-	padding-left: 60px;
+	padding-left:0;
 	margin-top: 160px;
 	}
 
@@ -508,7 +512,8 @@
 	margin-bottom: 5px;
 	padding-left: 0;
 	margin-top: 40px;
-	width: 75%;
+	width: 605px;
+	line-height: 30px;
 	}
 
 	.contact-informations h6{
@@ -597,7 +602,7 @@
     /* LET'S RECOVER YOUR LOST FUNDS section */
     
 	#our-process{
-	padding-top: 0px;
+	padding-top: 100px;
 	padding-bottom: 130px;
 	background: -webkit-linear-gradient( #081C44, #030F16);
 	background: linear-gradient( #081C44, #030F16); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -663,7 +668,7 @@
 
 	#our-process .l-r-text h2{
 	color: #fff;
-	font-size: 30px;
+	font-size: calc(16px + 0.390625vw);
 	text-align: left;
 	margin-top: 5px;
 	margin-bottom: 100px;
@@ -760,7 +765,7 @@
 
 	.steps li .small-text{
 	color: #040303;
-	font-size: 15px;
+	font-size: 16px;
 	text-align: left;
 	margin-top: 40px;
 	font-family: 'Titillium Web', sans-serif;
@@ -782,9 +787,48 @@
 	background-position: center center; 
 	position: relative;
 	min-height: 1080px;
-	padding-top: 35px;
-	padding-right: 100px;
+	padding-top: 120px;
+	padding-right: 70px;
 
+	}
+
+	.side-side{
+		padding-left: 70px;
+		margin-bottom: 100px;
+	}
+
+	.side-side h2{
+	color: #fff;
+	font-size: 30px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 100px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	display: block;
+	width:100%;
+
+	}
+
+	.side-side h3 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	font-size: 17px;
+	text-align: left;
+	line-height: 27px;
+	text-transform: uppercase;
+	}
+
+
+	.side-side h6 {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	font-size: 16px;
+	text-align: left;
+	line-height: 27px;
 	}
 
     #text-content .left-image-1{
@@ -819,7 +863,7 @@
   
     #text-content .txt-right h2{
     color: #fff;
-    font-size: 26px;
+    font-size: calc(16px + 0.390625vw);
     text-align: center;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -832,7 +876,7 @@
     font-family: 'Titillium Web', sans-serif;
     font-weight: 600;
     color: #fff;
-    font-size: 16px;
+    font-size: 17px;
     text-align: left;
     line-height: 27px;
 
@@ -875,7 +919,7 @@
 	#section-three{
 	padding-top: 100px;
 	padding-bottom: 100px;
-	padding-left: 40px;
+	padding-left: 60px;
 	background: url(../img/scam-alert-senior.png) center right  no-repeat, linear-gradient( #081C44, #030F16); ;
 	background-color: linear-gradient( #081C44, #030F16);
 
@@ -885,10 +929,10 @@
 
 	.first-text h2{
 	color: #fff;
-	font-size: 26px;
+	font-size: calc(16px + 0.390625vw);
 	text-align: center;
 	margin-top: 20px;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -898,7 +942,7 @@
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 600;
 	color: #fff;
-	font-size: 16px;
+	font-size: 17px;
 	text-align: left;
 	line-height: 27px;
 	}
@@ -915,7 +959,7 @@
 	.list-scam li{
 	color: #fff;
 	width: 100%;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 
 	}
 
@@ -923,14 +967,13 @@
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 700;
 	color: #fff;
-	font-size: 16px;
+	font-size: 17px;
 	text-align: left;
 	display: block;
 	margin-left: 10px;
 	line-height: 24px;
 	color: #fff;
-	text-transform: uppercase;
-
+	
 	}
 
 	.list-scam h6 span{
@@ -1073,6 +1116,46 @@
 	font-size: 16px;
 	text-align: left;
 	line-height: 27px;
+	}
+
+	.us-list{
+		display: block;
+		width: 100%;
+		float:left;
+		padding-left: 40px;
+	}
+
+	.us-list li{
+		display:inline;
+		float: left;
+		width: 45%;
+		margin-bottom: 30px;
+		margin-right: 35px;
+	}
+
+	.us-list li img{
+		display: block;
+		float: left;
+		margin-right: 20px;
+	}
+
+	.us-list li h4{
+		color: #fff;
+	font-size: 18px;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 700;
+	}
+
+
+	.us-list li p{
+		color: #fff;
+	font-size: 16px;
+	text-align: left;
+	
+	font-family: 'Titillium Web', sans-serif;
 	}
 
 
@@ -1351,7 +1434,7 @@
 
 	#faq-section-ta .text-faq-box h2{
 	color:#fff;
-	font-size: 30px;
+	font-size: 28px;
 	text-align: center;
 	margin-top: 5px;
 	margin-bottom: 50px;
@@ -1522,7 +1605,7 @@
 
 	#feedback h2 {
 	color: #fff;
-	font-size: 30px;
+	font-size: 28px;
 	text-align: center;
 	margin-top: 5px;
 	margin-bottom: 30px;
@@ -1973,7 +2056,7 @@
 	border-radius: 5px;
 	margin-left: 50px;
 	display: block;
-	float: left;
+	float:right;
 	margin-top: 145px;
 	margin-bottom: 95px;
 	} 
@@ -2354,8 +2437,9 @@
 		}
 
 		#text-content .txt-right h2 {
-			font-size: 34px;
+			font-size: 32px;
 			margin-bottom: 40px;
+			text-align: center;
 		}
 
 		.list-fea h6 {
@@ -2407,7 +2491,7 @@
 
 		#text-content .txt-right {
 		padding-left: 4%;
-		padding-right: 11%;
+		padding-right: 0;
 
 		}
 
@@ -2484,9 +2568,9 @@
 
 		.card-impressions {
 			display: block;
-			background-color: rgba(2, 32, 68, 0.45);
+			
 			border-radius: 6px;
-			max-width: 60%;
+			max-width: 100%;
 		}
 
 		.txt-choose h2 {
@@ -2534,11 +2618,7 @@
 			
 		}
 
-		#file-a-complaint .contact-informations {
-			display: block;
-			padding-left: 265px;
-			padding-top: 50px;
-		}
+		
 
 		#file-a-complaint .logo-trusted {
 			display: block;
@@ -2576,10 +2656,27 @@
 	}/* End 2560px Responsive Design extra large  */
     
 
+
+	@media only screen and (min-width: 1940px) and (max-width: 2555px){
+		.main-navigation{
+			background-color: #fff;
+		}
+
+		.contact-informations h5 {
+			width: 610px;
+		}
+
+	}/* End 1940px  */
+    
+
 	@media only screen and (max-width: 1400px){
 
 		.main-navigation{
 			background-color: #ff0040;
+		}
+
+		.contact-form .form-title {
+			font-size: 16px;
 		}
 
 		.steps li {
@@ -2662,7 +2759,7 @@
 		}
 
 		.contact-informations h5{
-			width: 70%;
+			width: 605px%;
 		}
 
 		.steps .small-text{
@@ -2682,6 +2779,15 @@
 
 		.main-navigation{
 			background-color: #04adf0;
+		}
+
+		#file-a-complaint{
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		.contact-form{
+			width: 100%;
 		}
 
 		.header-features{
@@ -2806,6 +2912,29 @@
 			background-color: #3d910d;
 		}
 
+		.us-list li {
+			display: inline;
+			float: left;
+			width: 43%;
+			margin-bottom: 30px;
+			margin-right: 25px;
+		}
+
+		.central-text .btn-get-money-2{
+			margin-top: 30px;
+		}
+
+		.us-list{
+			padding-left: 40px;
+		}
+
+
+		.central-text{
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+
 		.header-features {
 			margin-top: 0;
 		}
@@ -2820,7 +2949,7 @@
 		}
 
 		#our-process .l-r-text {
-			padding-left: 30px;
+			padding-left: 0;
 			padding-right: 30px;
 			margin-bottom: 20px;
 		}
@@ -3176,8 +3305,8 @@
 		}
 
 		#text-content .txt-right h6{
-			margin-bottom: 15px;
-			font-size: 13px;
+			margin-bottom: 7px;
+			font-size: 15px;
 		}
 	
 		.split-text h5 {
@@ -3410,7 +3539,7 @@
 		}
 
 		.first-text h2{
-			font-size: 23px;
+			font-size: 20px;
 		}
 
 		#text-content .txt-right .center-icon{
@@ -3451,6 +3580,19 @@
 
 		.link-footer:nth-child(2){
 			display: none;
+		}
+
+		.us-list {
+			padding-left: 20px;
+			padding-right: 5px;
+		}
+
+		.us-list li {
+			display: inline;
+			float: left;
+			width: 100%;
+			margin-bottom: 30px;
+			margin-right: 0;
 		}
 
 	} /* end mobile responsive media querie*/
