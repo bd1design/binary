@@ -612,71 +612,26 @@
 
 
 	#our-process .l-r-text{
-		padding-left: 70px;
-		padding-right: 70px;
-		margin-bottom: 20px;
-	}
-
-	.header-features{
-	display: block;
-	float: left;
-	width: 100%;
-	z-index: 999;
-	margin-bottom: 100px;
-	margin-top: -40px;
 	padding-left: 70px;
+	padding-right: 70px;
+	margin-bottom: 20px;
 	}
 
-	.header-features li{
-	float: left;
-	display: block;
-	width: 20%;
-	background-color: #092047;
-	box-shadow: 2px 2px 2px rgb(0 0 0 / 70%);
-	padding-left: 30px;padding-right: 30px;
-	padding-bottom: 40px;
-	margin-right: 30px;
-	border-top: 3px solid #F55340;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-
-	}
-
-	.header-features li:last-child{
-	margin-right: 0;
-	}
-
-	.header-features li img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 40px;height: 40px;
-	margin-top: -17px;
-	}
-
-	.header-features li p{
-	font-weight: 600;
-	color: #fff;
-	font-size: 15px;
-	text-align: left;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	font-family: 'Titillium Web', sans-serif;	
-	margin-top: 20px;
-
-	}
+	
 
 	#our-process .l-r-text h2{
 	color: #fff;
-	font-size: calc(16px + 0.390625vw);
-	text-align: left;
+	font-size: 28px;
+	text-align: center;
 	margin-top: 5px;
-	margin-bottom: 100px;
+	margin-bottom: 40px;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 700;
 	letter-spacing: 1px;
 	display: block;
 	width:100%;
+	margin-left: auto;
+	margin-right: auto;
 
 	}
 
@@ -695,7 +650,7 @@
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 600;
 	color: #fff;
-	font-size: 16px;
+	font-size: 17px;
 	text-align: left;
 	line-height: 27px;
 	}
@@ -779,7 +734,7 @@
 
 	}
 
-  
+
 	#text-content{
 	background: url(../img/banner-binary-hacker.jpg) no-repeat;
 	background-size: cover;
@@ -793,8 +748,8 @@
 	}
 
 	.side-side{
-		padding-left: 70px;
-		margin-bottom: 100px;
+	padding-left: 70px;
+	margin-bottom: 100px;
 	}
 
 	.side-side h2{
@@ -947,6 +902,9 @@
 	line-height: 27px;
 	}
 
+	.side-picture{
+		display: none;
+	}
 
 	.list-scam{
 	display: block;
@@ -1057,7 +1015,7 @@
 	padding-top: 90px;
 	padding-bottom: 130px;
 
-	background: url(../img/split-image-background.jpg) no-repeat;
+	background: url(../img/justice.jpg) no-repeat;
 	position: relative;
 	background-size: cover;
 	background-position: center center;
@@ -1071,6 +1029,7 @@
 	padding-left: 50px;padding-right: 50px;
 	border-radius: 20px;
 	margin-top: 32%;
+	padding-bottom: 40px;
 	
 	}
 
@@ -1097,9 +1056,9 @@
 
 	.central-text h1{
 	color: #fff;
-	font-size: 30px;
+	font-size: 28px;
 	text-align: center;
-	margin-top: 5px;
+	margin-top: 20px;
 	margin-bottom: 50px;
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 700;
@@ -1175,7 +1134,7 @@
 	margin-right: auto;
 	border-radius: 5px;
 	margin-bottom: 20px;
-	margin-top: 65px;
+	margin-top: 35px;
 	}
 
 	.central-text .btn-get-money-2 .fa{
@@ -1184,198 +1143,21 @@
 
 
 	
-	/* ----- SECTION ----------- */
-
-
-	.final-banner{
-	padding-top: 100px;padding-bottom: 120px;
-	background: url(../img/blue-banner-why-us.jpg) no-repeat;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100% 100%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	min-height: 1080px;
-	}
-
-	.final-banner .blue-text{
-	padding-left: 60px;
-
-	}
-
-
-	.final-banner  .buy-image{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 20px;
-	border: 4px solid #fff;
-	}
-
-	.final-banner .top-icon-ct{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.final-banner h2 {
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 700;
-	color: #fff;
-	font-size: 29px;
-	text-align: center;
-	margin-top: 2px;
-	margin-bottom: 40px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	text-transform: uppercase;
-	}
-
-	.final-banner  h3{
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 600;
-	color: #fff;
-	font-size: 18px;
-	text-align: center;
-	line-height: 24px;
-	margin-bottom: 5px;
-	text-transform: uppercase;
-	margin-top: 40px;
-	}
-
-
-	.final-banner  p{
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 600;
-	color: #FFF;
-	font-size: 16px;
-	text-align: left;
-	line-height: 24px;
-	margin-bottom: 15px;
-	}
-
-	.ok-list{
-	display: block;
-	float: left;
-	width: 100%;
-	margin-top: 60px;
-	}
-
-	.ok-list li{
-	padding-top: 20px;padding-bottom: 20px;
-	padding-left: 30px;
-	width: 100%;
-	float: left;
-	display: block;
-	background-color: rgba(9, 32, 71, 0.6);
-	margin-bottom: 20px;
-	border-radius: 10px;
-	width: 80%;
-	background: url(../img/blueshape.png) top left no-repeat rgba(9, 32, 71, 0.6);;
-	}
-
-	.ok-list li h6{
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 600;
-	color: #FFF;
-	font-size: 16px;
-	text-align: left;	
-	margin-bottom: 0;
-	padding-bottom: 0;
-	}
-
-	.ok-list li h6 img{
-	float: left;
-	display: block;
-	margin-right: 25px;
-	margin-top: -2px;
-	}
-
-
-
-
-/* ----- SECTION CHOOSE US ----------- */
-
-	.section-trust{
-	padding-top: 120px;padding-bottom: 80px;
-	background: url(../img/wave-background.jpg) no-repeat;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100% 100%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-
-	}
-
-	.section-trust .blue-text{
-	padding-left: 60px;
-
-	}
-
-	.section-trust  .mix-image{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 80px;
-	}
-
-	.section-trust h2 {
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 700;
-	color: #161558;
-	font-size: 29px;
-	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 40px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-
-	}
-
-
-
-	.section-trust .center-fund{
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-	}
 	
-	.section-trust  p{
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 600;
-	color: #1E1D1D;
-	font-size: 16px;
-	text-align: left;
-	line-height: 24px;
-	margin-bottom: 15px;
-	}
 
-	.section-trust  h6{
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 700;
-	color: #1E1D1D;
-	font-size: 16px;
-	text-align: left;
-	margin-bottom: 8px;
-	}
 
-	.section-trust  h6 img{
+	/* FAQ  SECTION */
+
+	#faq-section-ta{
 	display: block;
-	float: left;
-	margin-right: 15px;
-	width: 17px;
-	margin-top: 3px;
+	padding-top:60px;
+	padding-bottom:100px;
+	background: linear-gradient( #081C44, #030F16);
+
 	}
 
 
-	.section-trust .btn-get-money{
-	
+	.faq-get-quote{
 	font-weight: 500;
 	color: #fff;
 	font-size: 15px;
@@ -1387,25 +1169,18 @@
 	background-color: #F55340;
 	display: block;
 	float: left;
+	margin-left: 20px;
 	border-radius: 5px;
 	margin-bottom: 20px;
 	margin-top: 65px;
+	margin-left: auto;
+	margin-right: auto;
 	}
 
-	.section-trust .btn-get-money .fa{
+	.faq-get-quote .fa{
 	margin-left: 8px;
 	}
 
-
-	 /* FAQ  SECTION */
-
-	#faq-section-ta{
-	display: block;
-	padding-top:90px;
-	padding-bottom:100px;
-	background: linear-gradient( #081C44, #030F16);
-
-	}
 
 	#faq-section-ta .faq-fund{
 	display: block;
@@ -1430,7 +1205,7 @@
 	background-color:rgba(9, 32, 71, 0.7);
 	}
 
-	
+
 
 	#faq-section-ta .text-faq-box h2{
 	color:#fff;
@@ -1508,89 +1283,6 @@
 	}
 
 
-
-
-	/* ----- SECTION ----------- */
-
-
-	.cta-banner{
-	padding-top: 100px;padding-bottom: 120px;
-	background: url(../img/cta-bottom-banner.jpg) no-repeat;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100% 100%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center center;
-	min-height: 900px;
-	}
-
-	.cta-banner .cta-text{
-	padding-left: 60px;
-
-	}
-
-
-	.cta-banner .cta-text h2 {
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 700;
-	color: #fff;
-	font-size: 29px;
-	text-align: left;
-	margin-top: 2px;
-	margin-bottom: 40px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
-	text-transform: uppercase;
-	}
-
-	.cta-banner .cta-text  h3{
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 600;
-	color: #fff;
-	font-size: 18px;
-	text-align: center;
-	line-height: 24px;
-	margin-bottom: 5px;
-	text-transform: uppercase;
-	margin-top: 40px;
-	}
-
-
-	.cta-banner .cta-text  p{
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 600;
-	color: #FFF;
-	font-size: 16px;
-	text-align: left;
-	line-height: 24px;
-	margin-bottom: 15px;
-	}
-
-
-	.cta-text .btn-get-cta{
-	font-weight: 500;
-	color: #fff;
-	font-size: 15px;
-	letter-spacing: 1px;
-	background: transparent;
-	width: 260px;
-	padding-top: 17px;
-	padding-bottom: 17px;
-	background-color: #F55340;
-	display: block;
-	float: left;
-	margin-left: 20px;
-	border-radius: 5px;
-	margin-bottom: 20px;
-	margin-top: 65px;
-	}
-
-	.cta-text .btn-get-cta .fa{
-	margin-left: 8px;
-	}
 
 	
 	/* ----- FEEDBACK ----------- */
@@ -1737,7 +1429,7 @@
 	padding-bottom: 40px;
 	padding-left: 40px;
 	padding-right: 40px;
-	max-width: 45% !important;
+	max-width: 47% !important;
 	margin-right: 45px;
 	}
 
@@ -1791,10 +1483,10 @@
 	font-family: 'Titillium Web', sans-serif;
 	font-weight: 600;
 	color:#fff!important;
-	font-size: 16px;
+	font-size: 14px;
 	display: block;
-	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-bottom: 0;
+	margin-top: 0;
 	font-style: italic;
 
 	}
@@ -1804,7 +1496,7 @@
 	margin-left: auto;
 	margin-right: auto;
 	border: 1px solid #BFBBBB;
-	margin-top: 35px;
+	margin-top:20px;
 	margin-bottom: 20px;
 
 	}
@@ -1864,8 +1556,10 @@
 	width: 54px;
 	margin-top: 15px;
 	position: absolute;
-	right: 30px; bottom:-45px;
-
+	bottom:-45px;
+	left: 50%;
+	transform: translate(-50%,0);
+    position: absolute;
 
 	}
 
@@ -1929,6 +1623,7 @@
 	.phone-numbers li{
 	display: inline-block;
 	float: left;
+	width: 20%;
 
 	}
 
@@ -2424,6 +2119,8 @@
     /* -------------------  RESPOSNIVE DESGIN -------------------  */
     
      
+
+	/* ========== RESPONSIVE @ MEDIA 2560PX ===============  */
     
 	@media (min-width: 2560px) {
 
@@ -2652,29 +2349,45 @@
 			font-size: 18px;
 		}
 
+		#our-process .l-r-text {
+			padding-left: 12%;
+			padding-right: 12%;
+			margin-bottom: 20px;
+		}
+
 
 	}/* End 2560px Responsive Design extra large  */
     
 
 
+	/* ========== RESPONSIVE @ MEDIA 1940PX ===============  */
+
+
+
 	@media only screen and (min-width: 1940px) and (max-width: 2555px){
-		.main-navigation{
-			background-color: #fff;
-		}
+	
 
 		.contact-informations h5 {
 			width: 610px;
 		}
 
+		#our-process .l-r-text {
+			padding-left: 175px;
+			padding-right: 175px;
+			margin-bottom: 20px;
+		}
+
 	}/* End 1940px  */
     
 
+
+	
+	/* ========== RESPONSIVE @ MEDIA 1400PX ===============  */
+
+
 	@media only screen and (max-width: 1400px){
 
-		.main-navigation{
-			background-color: #ff0040;
-		}
-
+		
 		.contact-form .form-title {
 			font-size: 16px;
 		}
@@ -2736,7 +2449,7 @@
 		}
 
 		#text-content .txt-right h2{
-			font-size: 24px;
+			font-size: calc(15px + 0.390625vw);
 		}
 
 		#our-process .l-r-text {
@@ -2759,7 +2472,7 @@
 		}
 
 		.contact-informations h5{
-			width: 605px%;
+			width: 605px;
 		}
 
 		.steps .small-text{
@@ -2772,132 +2485,149 @@
 
 
 
-	/* Responsive Design Changes fixes CSS Tablet  */
+	/* ========== RESPONSIVE @ MEDIA 1200PX ===============  */
 
     @media (max-width: 1200px) {
 		
 
-		.main-navigation{
-			background-color: #04adf0;
+		
+
+		.phone-numbers{
+			padding-left: 0;
+		}
+
+		.phone-numbers li a {
+			font-size: 15px;
+		}
+
+		#our-process .l-r-text {
+			padding-left: 30px;
+			padding-right: 30px;
+			margin-bottom: 20px;
 		}
 
 		#file-a-complaint{
-			padding-left: 0;
-			padding-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+		}
+
+
+		#file-a-complaint .contact-informations{
+		padding-left: 40px;
 		}
 
 		.contact-form{
-			width: 100%;
+		width: 100%;
 		}
 
 		.header-features{
-			padding-left: 0;
+		padding-left: 0;
 		}
 
 		.card-impressions .carousel-item {
-			height: 465px;
+		height: 465px;
 		}
 
 
 		#our-process{
-			padding-bottom: 50px;
+		padding-bottom: 50px;
 		}
 
 		.cta-banner .cta-text h2 {
-			font-size: 22px;
+		font-size: 22px;
 		}
 
 		.central-text h1 {
-			font-size: 26px;
+		font-size: 26px;
 		}
 
 		.pilot-rates {
-			width: 100%;
+		width: 100%;
 		}
-		
+
 
 		.header-features li {
-			width: 21%;
-			height: 170px;
+		width: 21%;
+		height: 170px;
 		}
 
 		.steps li {
-			padding-left: 10px;
-			padding-top: 20px;
-			padding-right: 20px;
-			padding-bottom: 0;
-			display: block;
-			float: left;
-			margin-left: auto;
-			margin-right: 10px;
-			margin-bottom: 5px;
-			max-width: 225px;
-			position: relative;
-			height: 500px;
-			
-			position: relative;
+		padding-left: 10px;
+		padding-top: 20px;
+		padding-right: 20px;
+		padding-bottom: 0;
+		display: block;
+		float: left;
+		margin-left: auto;
+		margin-right: 10px;
+		margin-bottom: 5px;
+		max-width: 225px;
+		position: relative;
+		height: 500px;
+
+		position: relative;
 		}
 
 		.steps li .small-text{
-			margin-top: 20px;
+		margin-top: 40px;
 		}
 
 		.steps li h4{
-			font-size: 17px;
-			margin-bottom: 20px;
+		font-size: 17px;
+		margin-bottom: 20px;
 		}
-	
+
 		.contact-informations h5 {
-			width: 100%;
-			font-size: 17px;
+		width: 100%;
+		font-size: 17px;
 		}
 
 		#text-content .txt-right {
-			padding-right: 20px;
-			padding-left: 20px;
-			margin-top: 0px;
+		padding-right: 20px;
+		padding-left: 20px;
+		margin-top: 0px;
 		}
-		
+
 		.contact-form .form-title{
-			font-size: 13px;
+		font-size: 13px;
 		}
 
 		.contact-informations h2 span{
-			font-size: 23px;
+		font-size: 23px;
 		}
 
 		#our-process h2{
-			font-size: 29px;
+		font-size: 29px;
 		}
 
 		.steps h4{
-			font-size: 16px;
+		font-size: 16px;
 		}
 
 		.trade-text .txt-services{
-			padding-left: 10px;
-			padding-right: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
 		}
 
 		.txt-services h2 {
-			font-size: 28px;
+		font-size: 28px;
 		}
 
 		#inner-buy-offer h1{
-			font-size: 28px;	
+		font-size: 28px;	
 		}
 
 		.sell-tabs .nav-item{
-			width: 29%;
-			margin-bottom: 10px;
+		width: 29%;
+		margin-bottom: 10px;
 		}
 
 		.section-trust h2{
-			font-size: 26px;
+		font-size: 26px;
 		}
 
 		#text-content .txt-right h2{
-			font-size: 21px;
+		font-size: 21px;
 		}
     
 
@@ -2907,84 +2637,160 @@
 
     @media (max-width: 991px) {
 
+
+	
+
+		.phone-numbers li a {
+			font-size: 11px;
+		}
 		
-		.main-navigation{
-			background-color: #3d910d;
+		.us-list li p {
+			font-size: 15px;
+			line-height: 23px;
 		}
 
-		.us-list li {
-			display: inline;
-			float: left;
-			width: 43%;
-			margin-bottom: 30px;
-			margin-right: 25px;
+		#central-scam{
+			height: auto;
+			background: linear-gradient( #030F16, #081C44);
 		}
 
-		.central-text .btn-get-money-2{
-			margin-top: 30px;
-		}
-
-		.us-list{
+		.pilot-rates {
 			padding-left: 40px;
 		}
 
 
+		.phone-numbers li a img {
+			display: block;
+			float: left;
+			margin-right: 5px;
+			margin-top: -12px;
+			width: 40px;
+			height: 40px;
+		}
+
+		.pilot-rates li {
+			display: inline-block;
+			float: left;
+			margin-right: 26px;
+			width: 20%;
+		}
+
+
+		.us-list li img {
+			display: block;
+			float: left;
+			margin-right: 20px;
+			margin-top: 5px;
+		}
+
+		#faq-section-ta{
+			padding-top: 15px;
+		}
+
+
+		.steps {
+			display: block;
+			padding-left: 0;
+			width: 100%;
+		}
+
+		#section-three {
+		padding-top: 100px;
+		padding-bottom: 40px;
+		padding-left: 30px;
+		background: none;
+		background: linear-gradient( #081C44, #030F16);
+		position: relative;
+		}
+
+
+		.box-trustpilot {
+		max-width: 45% !important;
+		}
+
+
+		.side-picture{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+
+		}
+
+		.us-list li {
+		display: inline;
+		float: left;
+		width: 43%;
+		margin-bottom: 30px;
+		margin-right: 25px;
+		}
+
+		.central-text .btn-get-money-2{
+		margin-top: 30px;
+		}
+
+		.us-list{
+		padding-left: 40px;
+		}
+
+
 		.central-text{
-			padding-left: 20px;
-			padding-right: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-top: 0;
 		}
 
 
 		.header-features {
-			margin-top: 0;
+		margin-top: 0;
 		}
 
 		.header-features li {
-			width: 21%;
-			height: 190px;
+		width: 21%;
+		height: 190px;
 		}
 
 		#our-process .l-r-text h2{
-			margin-bottom: 35px;
+		margin-bottom: 35px;
 		}
 
 		#our-process .l-r-text {
-			padding-left: 0;
-			padding-right: 30px;
-			margin-bottom: 20px;
+		padding-left: 0;
+		padding-right: 30px;
+		margin-bottom: 20px;
 		}
 
 	
        
 		.nav-list .nav-item .btn-nav-book{
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-			float: none;
-			height: 50px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		float: none;
+		height: 50px;
 		}
 
 		#text-content{
-			padding-left: 40px;
-			padding-right: 40px;
+		padding-left: 40px;
+		padding-right: 40px;
+		background: linear-gradient( #030F16, #081C44);
 		}
 
 		
 
 		.signs li p {
-			font-size: 16px;
+		font-size: 16px;
 		}
 
 		.link-footer a {
-			font-size: 12px;
+		font-size: 12px;
 		}
 
 
 		.card-impressions .carousel-item {
-			height: 530px;
+		height: 530px;
 		}
 
-		
+
 
 		.steps li .small-text {
 		margin-top: 40px;
@@ -2992,36 +2798,36 @@
 		}
 
 		.steps li {
-			padding-left: 10px;
-			padding-top: 20px;
-			padding-right: 20px;
-			padding-bottom: 0;
-			margin-right: 10px;
-			margin-bottom: 30px;
-			max-width: 350px;
-			position: relative;
-			height: 400px;
-			position: relative;
+		padding-left: 10px;
+		padding-top: 20px;
+		padding-right: 20px;
+		padding-bottom: 0;
+		margin-right: 10px;
+		margin-bottom: 30px;
+		max-width: 350px;
+		position: relative;
+		height: 400px;
+		position: relative;
 		}
 
 
 		#file-a-complaint .logo-trusted {
-			display: block;
-			margin-top: 50px;
+		display: block;
+		margin-top: 50px;
 		}
 
 		.contact-form {
-			margin-top: 30px;
-			margin-bottom: 20px;
+		margin-top: 30px;
+		margin-bottom: 20px;
 		}
 
 		.webpro-faq .faq-header{
-			padding-left: 10px !important;
-			padding-right: 10px !important;
+		padding-left: 10px !important;
+		padding-right: 10px !important;
 		}
 
 		.webpro-faq .faq-header .btn {
-			font-size: 13px;
+		font-size: 13px;
 		}
 
 
@@ -3035,46 +2841,100 @@
     @media (max-width: 767.98px) {
 
 		
-			
-		.main-navigation{
-			background-color: #e614e6;
-		}
 
-		.steps {
+			.phone-numbers li {
+				display: inline-block;
+				float: left;
+				width: 32%;
+				margin-bottom: 15px;
+			}
+
+			.steps {
 			display: block;
 			padding-left: 0;
 			width: 70%;
 			text-align: center;
 			margin: auto;
-		}
+			}
 
-		.steps li {
+
+			.card-impressions .carousel-item {
+				height: 660px;
+			}
+
+			.link-footer a {
+				font-size: 10px;
+			}
+
+			.steps li {
 			display: block;
 			margin-left: auto !important;
 			margin-right: auto !important;
-		}
-		
-		.header-features li {
+			}
+
+			.header-features li {
 			width: 21%;
 			height: 240px;
-		}
-        .contact-form{
-            margin-left: 10px;
-        }
+			}
+			.contact-form{
+			margin-left: 10px;
+			}
 
-        .contact-form form {
-            padding-left: 10px;
-        }
-        
-     
+			.contact-form form {
+			padding-left: 10px;
+			}
 
-      
-        
+			#our-process .l-r-text h2 {
+				font-size: 20px;
+			}
 
+			.us-list li h4 {
+			
+				font-size: 15px;
+				margin-top: 16px;
+	
+			}
 
-        
+			.us-list{
+				width: 90%;
+			}
 
-      
+			.pilot-rates li {
+				display: inline-block;
+				float: left;
+				margin-right: 0;
+				width: 100%;
+				margin-bottom: 10px;
+			}
+
+			.pilot-rates li img{
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+			}
+
+			.pilot-rates {
+				padding-left:0;
+				width: 50%;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+			}
+
+			.pilot-rates li p{
+				text-align: center;
+			}
+
+			.us-list {
+				width: 100%;
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+
+			.us-list li{
+				width: 100%;
+			}
+    
 
 
 
@@ -3088,10 +2948,6 @@
 	
 	@media (max-width: 575.98px) { 
 		
-				
-		.main-navigation{
-			background-color: #080808;
-		}
 
 
 		.steps {
@@ -3216,7 +3072,7 @@
 
 	
 		#file-a-complaint{
-			background: url(../img/mobile-cover-hero.jpg) no-repeat;
+			background: url(../img/mobile-binary-home.png) no-repeat;
 			background-color: #01172d;
 		    background-size: contain;
     		background-repeat: no-repeat !important;
@@ -3292,7 +3148,7 @@
 		.phone-numbers li{
 			display: block;
 			float: left;
-			width: 100%;
+			width: 48%;
 			margin-bottom: 10px;
 		}
 
@@ -3382,6 +3238,7 @@
 		#our-process{
 			padding-left: 20px;
 			padding-bottom: 30px;
+			padding-top: 50px;
 		}
 
 	
@@ -3457,27 +3314,28 @@
 		}
 		
 		#text-content {
-			background: url(../img/banner-binary-hacker.jpg) no-repeat #081b43;
-			background-size: contain;
+			background: linear-gradient(#030F16, #081C44);
+		
+			background-size: cover;
 			background-repeat: no-repeat;
-			background-position: top center;
+			background-position: center;
 			position: relative;
-			min-height: 1080px;
-			padding-top: 230px;
+			min-height: auto;
+			padding-top: 70px;
 			padding-right: 20px;
 			padding-left: 20px;
 		}
 
 		#section-three {
-			padding-top: 100px;
+			padding-top: 50px;
 			padding-bottom: 100px;
 			padding-left: 10px;
-			background: url(../img/scam-alert-senior.png) top center no-repeat, linear-gradient( #081C44, #030F16);
-			background-color: linear-gradient( #081C44, #030F16);
+			background: linear-gradient( #081C44, #030F16);
+		
 		}
 
 		#section-three .first-text{
-			margin-top: 450px;
+			margin-top:0;
 		}
 
 		.final-banner .blue-text {
@@ -3536,6 +3394,7 @@
 		.central-text{
 			padding-left: 30px;
 			padding-right: 30px;
+			background-color: transparent;
 		}
 
 		.first-text h2{
